@@ -26,7 +26,7 @@ export default function starlightMegaMenu(config: MegaMenuConfig): StarlightPlug
           addIntegration(react());
         }
 
-        // 2. Add Vite virtual module via Astro integration
+        // 2. Add Vite virtual module + React deduplication via Astro integration
         addIntegration({
           name: 'starlight-mega-menu-integration',
           hooks: {
@@ -34,6 +34,9 @@ export default function starlightMegaMenu(config: MegaMenuConfig): StarlightPlug
               updateAstroConfig({
                 vite: {
                   plugins: [vitePluginMegaMenuConfig(config)],
+                  resolve: {
+                    dedupe: ['react', 'react-dom', 'react/jsx-runtime', 'react/jsx-dev-runtime'],
+                  },
                 },
               });
             },
