@@ -18,8 +18,8 @@ When available, use `/ship` to handle the full workflow (issue creation, branch,
 
 Use the format `<prefix>/<issue-number>-short-description`:
 
-- `feature/42-add-grid-layout`
-- `fix/17-correct-animation`
+- `feature/42-add-rate-limiting`
+- `fix/17-correct-threshold`
 - `docs/8-update-guide`
 
 ## Rules
