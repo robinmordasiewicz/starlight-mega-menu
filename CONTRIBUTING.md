@@ -28,8 +28,8 @@ Branch from `main` using one of these naming conventions:
 
 | Prefix | Use for | Example |
 |--------|---------|---------|
-| `feature/` | New features | `feature/42-add-grid-layout` |
-| `fix/` | Bug fixes | `fix/17-correct-animation-timing` |
+| `feature/` | New features | `feature/42-add-rate-limiting` |
+| `fix/` | Bug fixes | `fix/17-correct-threshold-calc` |
 | `docs/` | Documentation | `docs/8-update-setup-guide` |
 
 Format: `<prefix>/<issue-number>-short-description`
@@ -37,15 +37,15 @@ Format: `<prefix>/<issue-number>-short-description`
 ```bash
 git checkout main
 git pull origin main
-git checkout -b feature/42-add-grid-layout
+git checkout -b feature/42-add-rate-limiting
 ```
 
 ## Step 3: Make Changes and Commit
 
 - Write small, focused commits
 - Use conventional commit messages:
-  - `feat: add grid layout support`
-  - `fix: correct animation timing`
+  - `feat: add rate limiting configuration`
+  - `fix: correct threshold calculation`
   - `docs: update setup guide`
 
 ## Step 4: Open a Pull Request
