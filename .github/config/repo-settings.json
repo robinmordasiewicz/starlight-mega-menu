@@ -1,6 +1,6 @@
 {
   "repository": {
-    "description": "A HashiCorp-style mega-menu navigation plugin for Astro Starlight",
+    "description": "A mega-menu navigation plugin for Astro Starlight",
     "homepage": "https://robinmordasiewicz.github.io/starlight-mega-menu/"
   },
   "topics": ["starlight", "astro", "mega-menu", "navigation", "plugin"]
