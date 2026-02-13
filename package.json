@@ -1,7 +1,7 @@
 {
   "name": "starlight-mega-menu",
   "version": "0.0.0-development",
-  "description": "A HashiCorp-style mega-menu navigation plugin for Astro Starlight",
+  "description": "A mega-menu navigation plugin for Astro Starlight",
   "type": "module",
   "license": "MIT",
   "exports": {
